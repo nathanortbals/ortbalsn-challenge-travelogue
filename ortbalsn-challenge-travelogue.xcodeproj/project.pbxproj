@@ -13,6 +13,14 @@
 		4403CA28225D1F5300972EBA /* ortbalsn_challenge_travelogue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA26225D1F5300972EBA /* ortbalsn_challenge_travelogue.xcdatamodeld */; };
 		4403CA2A225D1F5400972EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4403CA29225D1F5400972EBA /* Assets.xcassets */; };
 		4403CA2D225D1F5400972EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4403CA2B225D1F5400972EBA /* LaunchScreen.storyboard */; };
+		4403CA4D225D373E00972EBA /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA4C225D373E00972EBA /* TripsTableViewController.swift */; };
+		4403CA4F225D375900972EBA /* EntriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA4E225D375900972EBA /* EntriesTableViewController.swift */; };
+		4403CA51225D376D00972EBA /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA50225D376D00972EBA /* EntryViewController.swift */; };
+		4403CA53225D385000972EBA /* NewTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA52225D385000972EBA /* NewTripViewController.swift */; };
+		4403CA64225D3F1300972EBA /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA60225D3F1300972EBA /* Entry+CoreDataClass.swift */; };
+		4403CA65225D3F1300972EBA /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA61225D3F1300972EBA /* Entry+CoreDataProperties.swift */; };
+		4403CA66225D3F1300972EBA /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA62225D3F1300972EBA /* Trip+CoreDataClass.swift */; };
+		4403CA67225D3F1300972EBA /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403CA63225D3F1300972EBA /* Trip+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		4403CA29225D1F5400972EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4403CA2C225D1F5400972EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4403CA2E225D1F5400972EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4403CA4C225D373E00972EBA /* TripsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
+		4403CA4E225D375900972EBA /* EntriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesTableViewController.swift; sourceTree = "<group>"; };
+		4403CA50225D376D00972EBA /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		4403CA52225D385000972EBA /* NewTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripViewController.swift; sourceTree = "<group>"; };
+		4403CA60225D3F1300972EBA /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4403CA61225D3F1300972EBA /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4403CA62225D3F1300972EBA /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4403CA63225D3F1300972EBA /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,10 @@
 		4403CA1E225D1F5300972EBA /* ortbalsn-challenge-travelogue */ = {
 			isa = PBXGroup;
 			children = (
+				4403CA60225D3F1300972EBA /* Entry+CoreDataClass.swift */,
+				4403CA61225D3F1300972EBA /* Entry+CoreDataProperties.swift */,
+				4403CA62225D3F1300972EBA /* Trip+CoreDataClass.swift */,
+				4403CA63225D3F1300972EBA /* Trip+CoreDataProperties.swift */,
 				4403CA1F225D1F5300972EBA /* AppDelegate.swift */,
 				4403CA21225D1F5300972EBA /* ViewController.swift */,
 				4403CA23225D1F5300972EBA /* Main.storyboard */,
@@ -63,6 +83,10 @@
 				4403CA2B225D1F5400972EBA /* LaunchScreen.storyboard */,
 				4403CA2E225D1F5400972EBA /* Info.plist */,
 				4403CA26225D1F5300972EBA /* ortbalsn_challenge_travelogue.xcdatamodeld */,
+				4403CA4C225D373E00972EBA /* TripsTableViewController.swift */,
+				4403CA4E225D375900972EBA /* EntriesTableViewController.swift */,
+				4403CA50225D376D00972EBA /* EntryViewController.swift */,
+				4403CA52225D385000972EBA /* NewTripViewController.swift */,
 			);
 			path = "ortbalsn-challenge-travelogue";
 			sourceTree = "<group>";
@@ -138,7 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4403CA67225D3F1300972EBA /* Trip+CoreDataProperties.swift in Sources */,
 				4403CA22225D1F5300972EBA /* ViewController.swift in Sources */,
+				4403CA51225D376D00972EBA /* EntryViewController.swift in Sources */,
+				4403CA64225D3F1300972EBA /* Entry+CoreDataClass.swift in Sources */,
+				4403CA4D225D373E00972EBA /* TripsTableViewController.swift in Sources */,
+				4403CA66225D3F1300972EBA /* Trip+CoreDataClass.swift in Sources */,
+				4403CA53225D385000972EBA /* NewTripViewController.swift in Sources */,
+				4403CA4F225D375900972EBA /* EntriesTableViewController.swift in Sources */,
+				4403CA65225D3F1300972EBA /* Entry+CoreDataProperties.swift in Sources */,
 				4403CA28225D1F5300972EBA /* ortbalsn_challenge_travelogue.xcdatamodeld in Sources */,
 				4403CA20225D1F5300972EBA /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSDDS43WYA;
 				INFOPLIST_FILE = "ortbalsn-challenge-travelogue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSDDS43WYA;
 				INFOPLIST_FILE = "ortbalsn-challenge-travelogue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
